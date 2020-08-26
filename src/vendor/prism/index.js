@@ -1,5 +1,5 @@
-import Prism from './prism-core'
-import codegen from 'codegen.macro'
+import Prism from "./prism-core";
+import codegen from "codegen.macro";
 
 // Babel Codegen Macro:
 // Get a list of all prismjs languages and inline them here.
@@ -8,8 +8,8 @@ import codegen from 'codegen.macro'
 codegen`
   const { readFileSync } = require('fs')
   const { dirname, join } = require('path')
-  const { languages } = require('prismjs/components')
-  const prismPath = dirname(require.resolve('prismjs'))
+  const { languages } = require('@atlassian/prismjs/components')
+  const prismPath = dirname(require.resolve('@atlassian/prismjs'))
 
   let output = '/* This content is auto-generated to include some prismjs language components: */\\n'
 
@@ -47,7 +47,7 @@ codegen`
         if (languages[x]) {
           visitLanguage(x, languages[x])
         } else {
-          console.warn('[prismjs/components]: Language', x, 'does not exist!')
+          console.warn('[@atlassian/prismjs/components]: Language', x, 'does not exist!')
         }
       })
     }
@@ -63,7 +63,7 @@ codegen`
         if (languages[x]) {
           visitLanguage(x, languages[x])
         } else {
-          console.warn('[prismjs/components]: Language', x, 'does not exist!')
+          console.warn('[@atlassian/prismjs/components]: Language', x, 'does not exist!')
         }
       })
     }
@@ -77,6 +77,6 @@ codegen`
   })
 
   module.exports = output
-`
+`;
 
-export default Prism
+export default Prism;

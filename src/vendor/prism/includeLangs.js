@@ -28,6 +28,7 @@ module.exports = {
   ocaml: true,
   python: true,
   reason: true,
+  rego: true,
   sass: true,
   scss: true,
   sql: true,
@@ -35,5 +36,5 @@ module.exports = {
   tsx: true,
   typescript: true,
   wasm: true,
-  yaml: true
+  yaml: true,
 };

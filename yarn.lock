@@ -3,9 +3,9 @@
 
 
 "@atlassian/prismjs@^1.20.0":
-  version "1.21.0"
-  resolved "https://packages.atlassian.com/api/npm/atlassian-npm/@atlassian/prismjs/-/@atlassian/prismjs-1.21.0.tgz#f7c00607c5dd3b5f88e498c6a7625171b8e46f00"
-  integrity sha1-98AGB8XdO1+I5JjGp2JRcbjkbwA=
+  version "1.21.1"
+  resolved "https://packages.atlassian.com/api/npm/atlassian-npm/@atlassian/prismjs/-/@atlassian/prismjs-1.21.1.tgz#1f226479d170fb76db21ef87722023019146eb6b"
+  integrity sha1-HyJkedFw+3bbIe+HciAjAZFG62s=
   optionalDependencies:
     clipboard "^2.0.0"
 
