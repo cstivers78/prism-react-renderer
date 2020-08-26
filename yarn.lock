@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@atlassian/prismjs@^1.20.0":
+  version "1.21.0"
+  resolved "https://packages.atlassian.com/api/npm/atlassian-npm/@atlassian/prismjs/-/@atlassian/prismjs-1.21.0.tgz#f7c00607c5dd3b5f88e498c6a7625171b8e46f00"
+  integrity sha1-98AGB8XdO1+I5JjGp2JRcbjkbwA=
+  optionalDependencies:
+    clipboard "^2.0.0"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -4215,13 +4222,6 @@ pretty-format@^25.1.0, pretty-format@^25.4.0:
     ansi-regex "^5.0.0"
     ansi-styles "^4.0.0"
     react-is "^16.12.0"
-
-prismjs@^1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.20.0.tgz#9b685fc480a3514ee7198eac6a3bf5024319ff03"
-  integrity sha512-AEDjSrVNkynnw6A+B1DsFkd6AVdTnp+/WoUixFRULlCLZVRZlVQMVWio/16jv7G1FscUxQxOQhWwApgbnxr6kQ==
-  optionalDependencies:
-    clipboard "^2.0.0"
 
 private@^0.1.8:
   version "0.1.8"
